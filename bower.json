@@ -1,0 +1,21 @@
+{
+  "name": "sample",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Conripi"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.4",
+    "bootstrap": "^4.4.1"
+  }
+}
