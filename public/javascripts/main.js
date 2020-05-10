@@ -450,7 +450,7 @@
 			labels: labels,
 			datasets: [
 				{
-					type: 'line', // 追加
+					type: 'line',
 					label: 'Rating',
 					data: rating,
 					borderColor: "rgba(135, 135, 135,0.9)",
@@ -462,7 +462,8 @@
 
 		var ctx = document.getElementById("chart").getContext("2d");
 		window.myBar = new Chart(ctx, {
-			type: 'line', // ここは bar にする必要があります
+			type: 'line',
+			lineTension: 0,
 			data: barChartData,
 			options: {
 				scales: {
